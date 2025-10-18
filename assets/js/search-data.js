@@ -30,19 +30,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "A growing collection of your courses.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-cv-resume",
           title: "CV/Resume",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "Teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -390,6 +390,41 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "courses-cmkl-18-631",
+          title: 'CMKL 18-631',
+          description: "Introduction to Information Security",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/18-631/";
+            },},{id: "courses-aic-305",
+          title: 'AIC-305',
+          description: "Bio-Inspired AI",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/AIC-305/";
+            },},{id: "courses-sec-101",
+          title: 'SEC-101',
+          description: "Data and Information Fundamentals",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/SEC-101/";
+            },},{id: "courses-sec-201",
+          title: 'SEC-201',
+          description: "Data Privacy, Security, and Integrity",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/SEC-201/";
+            },},{id: "courses-sec-204",
+          title: 'SEC-204',
+          description: "Security Policy and Processes",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/SEC-204/";
+            },},{id: "courses-sec-205",
+          title: 'SEC-205',
+          description: "Distributed Ledger and Blockchain",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/SEC-205/";
+            },},{id: "courses-sec-301",
+          title: 'SEC-301',
+          description: "Security Challenges in Modern AI Systems",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/SEC-301/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -426,11 +461,6 @@ ninja.data = [{
           description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
